@@ -1,0 +1,1 @@
+write me a simple Python function that takes two rational functions and combines them, also provide an example.
