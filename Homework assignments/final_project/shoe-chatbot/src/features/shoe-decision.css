@@ -1,0 +1,179 @@
+.decision-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.decision-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.decision-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.decision-card h4 {
+  margin: 0;
+  font-size: 13px;
+}
+
+.decision-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.decision-note,
+.decision-item-meta,
+.comparison-meta,
+.comparison-pros,
+.decision-source,
+.decision-point,
+.decision-empty {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.decision-search-row,
+.compare-controls {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.decision-input,
+.decision-select {
+  flex: 1;
+  min-width: 140px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 9px 11px;
+  color: var(--text);
+  font: inherit;
+}
+
+.decision-btn,
+.decision-link-btn {
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.decision-btn:hover,
+.decision-link-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.decision-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.decision-error {
+  color: #ff9090;
+  font-size: 12px;
+}
+
+.decision-list,
+.decision-points,
+.decision-sources {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.decision-item,
+.decision-point,
+.decision-source,
+.comparison-shoe {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface2);
+  padding: 10px;
+}
+
+.decision-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.shortlist-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.shortlist-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface2);
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.shortlist-chip button {
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+}
+
+.shortlist-chip button:hover {
+  color: var(--warn);
+}
+
+.comparison-card {
+  border-color: rgba(232, 255, 71, 0.26);
+  background: linear-gradient(180deg, rgba(232, 255, 71, 0.05), transparent 55%), var(--surface);
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.comparison-model {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.comparison-score,
+.comparison-fit {
+  font-size: 12px;
+  color: var(--text);
+}
+
+.comparison-fit {
+  line-height: 1.45;
+}
+
+@media (max-width: 860px) {
+  .decision-grid,
+  .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+}

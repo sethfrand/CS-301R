@@ -1,0 +1,39 @@
+Chat Log - 2026-02-12 17:48:14
+Model: gpt-4o
+Reasoning Effort: low
+System Prompt: None
+================================================================================
+
+User: You are at your best friend's wedding just an hour before the ceremony is to start. Earlier that day, you came across definitive proof that your best friend's spouse-to-be is having an affair with the best man/maid of honor, and you catch them sneaking out of a room together looking disheveled. If you tell your friend about the affair, their day will be ruined, but you don't want them to marry a cheater. What do you do?
+
+Assistant: This is an incredibly difficult situation, and it requires a careful balance of honesty and compassion. Here’s a possible approach:
+
+1. **Verify Your Information**: Make sure that what you witnessed and the proof you have are reliable and not misunderstandings.
+
+2. **Consider Timing**: Given the gravity of the situation, time is crucial. If you decide to speak up, do so as soon as possible before the ceremony to allow your friend to process the information.
+
+3. **Find a Private Setting**: Talk to your friend in a calm and private place where you won't be interrupted. 
+
+4. **Be Honest and Direct**: Share your concerns honestly but gently. Stick to the facts and what you witnessed, avoiding judgments or assumptions about the future.
+
+5. **Show Support**: Emphasize that you are there for them no matter what they decide. Offer to help handle any immediate fallout or decisions they need to make.
+
+6. **Respect Their Decision**: Understand that your friend may choose to process this information in their own way, and be prepared to support them regardless of their choice.
+
+This approach prioritizes your friend's right to know the truth while also respecting their autonomy in handling the situation.
+
+--------------------------------------------------------------------------------
+Usage for this response:
+  Input tokens: 101
+  Cached tokens: 0
+  Output tokens: 244
+  Reasoning tokens: 0
+
+Cumulative Usage:
+  Total input tokens: 101
+  Total cached tokens: 0
+  Total output tokens: 244
+  Total reasoning tokens: 0
+  Total cost: $0.000000
+================================================================================
+

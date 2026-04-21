@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Startup HTML – Part 1</title>
+  <style>
+    /* Very light inline styling just for layout visualization */
+    :root { --bg: #f5f5f5; --card: #fff; --muted: #666; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: #111; font-family: sans-serif; height: 100%; }
+    header { background: #1e88e5; color: white; padding: 1rem; }
+    header nav a { color: white; margin-right: 1rem; text-decoration: none; }
+    main { padding: 1rem; display: grid; grid-template-columns: 1fr; gap: 1rem; }
+    .card { background: var(--card); border: 1px solid #ddd; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+    h2 { font-size: 1.1rem; margin: 0 0 .5rem; }
+    .placeholder { height: 120px; border: 2px dashed #bbb; display:flex; align-items:center; justify-content:center; color:#888; }
+    form { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; align-items: center; }
+    label { display: block; font-size: .85rem; color: #555; }
+    input { width: 100%; padding: .4rem; border: 1px solid #ccc; border-radius: 4px; }
+    .section-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    footer { text-align: center; color: #777; padding: 1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Startup HTML – Part 1</h1>
+    <nav aria-label="Main">
+      <a href="#app-data">App Data</a>
+      <a href="#auth">Authentication</a>
+      <a href="#db-data">Database Data</a>
+      <a href="#websocket">WebSocket Data</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- App Data placeholder -->
+    <section id="app-data" class="card">
+      <h2>Application Data (placeholder)</h2>
+      <div class="placeholder" aria-label="Application data placeholder">
+        UI for app data will render here
+      </div>
+      <!-- Example: a simple mock of data rendering -->
+      <div id="app-data-preview" style="margin-top:.5rem; padding:0.5rem; border:1px solid #eee; border-radius:6px;">
+        <p style="margin:0; color:#555;">[Sample rendering]</p>
+        <svg width="100" height="40" viewBox="0 0 100 40" aria-label="sample UI graphic">
+          <rect x="5" y="10" width="20" height="20" fill="#1e88e5"/>
+          <rect x="30" y="6" width="20" height="28" fill="#42a5f5"/>
+          <rect x="55" y="12" width="20" height="22" fill="#7ec8ff"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Authentication placeholder -->
+    <section id="auth" class="card">
+      <h2>Authentication (placeholder)</h2>
+      <form id="login-form" autocomplete="off" onsubmit="return false;">
+        <div>
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter username" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" />
+        </div>
+        <div style="grid-column: span 2; text-align: right;">
+          <button type="button" onclick="fakeLogin()">Login</button>
+        </div>
+      </form>
+      <p id="user-status" style="margin-top:0.5rem; color:#555;">
+        Not logged in.
+      </p>
+    </section>
+
+    <!-- Database data placeholder -->
+    <section id="db-data" class="card">
+      <h2>Database Data (placeholder)</h2>
+      <div class="placeholder" aria-label="Database data placeholder">
+        High scores or similar data would render here
+      </div>
+      <div id="db-content" style="margin-top:.5rem;">
+        <p style="margin:0; color:#555;">[Sample high scores]</p>
+        <ul>
+          <li>Alice — 1200</li>
+          <li>Bob — 980</li>
+          <li>Carol — 750</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- WebSocket data placeholder -->
+    <section id="websocket" class="card">
+      <h2>WebSocket Data (placeholder)</h2>
+      <div class="placeholder" aria-label="WebSocket data placeholder">
+        Real-time data would appear here
+      </div>
+      <div id="ws-feed" style="margin-top:.5rem;">
+        <p style="margin:0; color:#555;">[Live feed sample - last update would appear here]</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Startup HTML – Part 1 skeleton. Update notes in your repository as you progress.</p>
+  </footer>
+
+  <script>
+    // Tiny client-side helpers to simulate login and update status.
+    function fakeLogin() {
+      const user = document.getElementById('username').value || 'Guest';
+      document.getElementById('user-status').textContent = 'Logged in as: ' + user;
+      // In a real app, you would handle authentication here
+    }
+  </script>
+</body>
+</html>

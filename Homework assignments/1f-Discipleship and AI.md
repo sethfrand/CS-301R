@@ -5,6 +5,7 @@ was really important that in both instances they talked about the importance of 
 It is somewhat disturbing the extent to which relying on AI for compantionship has 
 become so commonplace. In class, we saw the graphics from a study that was done, those statistics were 
 also very disturbing. I read another article that was talking about how many teens are 
-turning to AI for everything from homework to health needs. 
-I think this is a very important topic to discuss adn something that we need 
+turning to AI for everything from homework to health needs [https://prospect.org/2026/02/19/ai-chatbot-experiment-americas-children-big-tech-chatgpt-openai/] 
+it was a very interseting read but also very disturbing.
+I think this is a very important topic to discuss and something that we need 
 to be aware of as we move forward. 

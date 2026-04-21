@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crumb School</title>
+    <meta
+      name="description"
+      content="Learn how to bake with guided lessons, starter recipes, technique cards, and a simple readiness quiz."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <div class="brand">
+            <span class="brand-mark">CS</span>
+            <span class="brand-text">Crumb School</span>
+          </div>
+          <div class="nav-links">
+            <a href="#pathways">Pathways</a>
+            <a href="#skills">Skills</a>
+            <a href="#quiz">Quiz</a>
+          </div>
+        </nav>
+
+        <div class="hero-grid">
+          <section class="hero-copy">
+            <p class="eyebrow">Bake with structure, not guesswork</p>
+            <h1>Learn baking from first whisk to finished loaf.</h1>
+            <p class="hero-text">
+              Crumb School teaches the fundamentals behind cookies, cakes,
+              bread, and pastry so beginners can stop memorizing recipes and
+              start understanding the craft.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#pathways">Start Learning</a>
+              <a class="button button-secondary" href="#starter-kit">See Starter Kit</a>
+            </div>
+            <ul class="hero-stats" aria-label="Site highlights">
+              <li><strong>12</strong><span>Foundational lessons</span></li>
+              <li><strong>4</strong><span>Guided bake tracks</span></li>
+              <li><strong>1</strong><span>Confidence-building quiz</span></li>
+            </ul>
+          </section>
+
+          <aside class="hero-panel">
+            <div class="panel-card card-glow">
+              <p class="panel-label">This week's focus</p>
+              <h2>Why dough texture matters</h2>
+              <p>
+                Learn how hydration, gluten development, and rest time change
+                what comes out of your oven.
+              </p>
+              <div class="temperature-strip">
+                <div>
+                  <span class="strip-title">Butter</span>
+                  <span class="strip-copy">Cool for flaky layers</span>
+                </div>
+                <div>
+                  <span class="strip-title">Eggs</span>
+                  <span class="strip-copy">Room temp for smooth batters</span>
+                </div>
+                <div>
+                  <span class="strip-title">Oven</span>
+                  <span class="strip-copy">Preheat before mixing ends</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </header>
+
+      <main>
+        <section class="section pathways" id="pathways">
+          <div class="section-heading">
+            <p class="eyebrow">Choose a track</p>
+            <h2>Follow a learning path that matches what you want to bake.</h2>
+          </div>
+
+          <div class="filter-bar" aria-label="Lesson filter controls">
+            <button class="filter-button is-active" type="button" data-filter="all">All Levels</button>
+            <button class="filter-button" type="button" data-filter="beginner">Beginner</button>
+            <button class="filter-button" type="button" data-filter="intermediate">Intermediate</button>
+            <button class="filter-button" type="button" data-filter="advanced">Advanced</button>
+          </div>
+
+          <div class="path-grid">
+            <article class="path-card" data-level="beginner" data-track="cookies-bars">
+              <p class="card-tag">Beginner</p>
+              <h3>Cookies & Bars</h3>
+              <p>
+                Start with mixing methods, sugar ratios, and pan timing using
+                forgiving recipes that teach cause and effect quickly.
+              </p>
+              <ul>
+                <li>Creaming butter correctly</li>
+                <li>Reading doneness by edges and center</li>
+                <li>Fixing spread, dryness, and crumble</li>
+              </ul>
+              <button class="path-link" type="button" data-track-target="cookies-bars">
+                Explore this track
+              </button>
+            </article>
+
+            <article class="path-card" data-level="beginner" data-track="cakes-frosting">
+              <p class="card-tag">Beginner</p>
+              <h3>Cakes & Frosting</h3>
+              <p>
+                Build reliable layers by learning aeration, batter consistency,
+                pan prep, and temperature control.
+              </p>
+              <ul>
+                <li>Reverse creaming vs. classic creaming</li>
+                <li>Leveling and stacking clean layers</li>
+                <li>Balancing sweetness with salt and acid</li>
+              </ul>
+              <button class="path-link" type="button" data-track-target="cakes-frosting">
+                Explore this track
+              </button>
+            </article>
+
+            <article class="path-card" data-level="intermediate" data-track="bread-basics">
+              <p class="card-tag">Intermediate</p>
+              <h3>Bread Basics</h3>
+              <p>
+                Understand yeast, proofing, shaping, and steam so your loaves
+                rise with more consistency and better crust.
+              </p>
+              <ul>
+                <li>How to judge proofing without guessing</li>
+                <li>Stretch-and-fold timing</li>
+                <li>Scoring and oven spring</li>
+              </ul>
+              <button class="path-link" type="button" data-track-target="bread-basics">
+                Explore this track
+              </button>
+            </article>
+
+            <article class="path-card" data-level="advanced" data-track="pastry-lab">
+              <p class="card-tag">Advanced</p>
+              <h3>Pastry Lab</h3>
+              <p>
+                Work on laminated doughs, custards, and structured desserts
+                where precision matters at every stage.
+              </p>
+              <ul>
+                <li>Keeping butter locked in layers</li>
+                <li>Cooking curds and pastry cream cleanly</li>
+                <li>Assembly timing for crisp finishes</li>
+              </ul>
+              <button class="path-link" type="button" data-track-target="pastry-lab">
+                Explore this track
+              </button>
+            </article>
+          </div>
+
+          <div class="track-explorer" aria-labelledby="track-explorer-title">
+            <div class="track-nav">
+              <p class="panel-label">Track explorer</p>
+              <h3 id="track-explorer-title">Go deeper into the lessons inside each path.</h3>
+              <div class="track-tabs" role="tablist" aria-label="Track details">
+                <button
+                  class="track-tab is-active"
+                  type="button"
+                  role="tab"
+                  aria-selected="true"
+                  data-track-target="cookies-bars"
+                >
+                  Cookies & Bars
+                </button>
+                <button
+                  class="track-tab"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  data-track-target="cakes-frosting"
+                >
+                  Cakes & Frosting
+                </button>
+                <button
+                  class="track-tab"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  data-track-target="bread-basics"
+                >
+                  Bread Basics
+                </button>
+                <button
+                  class="track-tab"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  data-track-target="pastry-lab"
+                >
+                  Pastry Lab
+                </button>
+              </div>
+            </div>
+
+            <div class="track-detail">
+              <article class="track-panel is-active" data-track-panel="cookies-bars">
+                <div class="track-panel-head">
+                  <div>
+                    <p class="card-tag">Beginner path</p>
+                    <h3>Cookies & Bars</h3>
+                  </div>
+                  <p class="track-outcome">Outcome: learn fast visual feedback and ingredient ratio logic.</p>
+                </div>
+                <p class="track-summary">
+                  This path is designed for fast reps. You will see how butter temperature, sugar type,
+                  and mixing time change spread, chew, color, and structure.
+                </p>
+                <div class="detail-grid">
+                  <div class="detail-card">
+                    <p class="panel-label">Lesson sequence</p>
+                    <ul class="detail-list">
+                      <li>Drop cookies: creaming, chill time, and spread control</li>
+                      <li>Brownies: fudgy vs. cakey structure through egg and flour ratios</li>
+                      <li>Bars: pan lining, layering, and clean slicing</li>
+                    </ul>
+                  </div>
+                  <div class="detail-card">
+                    <p class="panel-label">Milestone bake</p>
+                    <p>Build one base dough and split it three ways to compare crisp, chewy, and soft results.</p>
+                  </div>
+                  <div class="detail-card">
+                    <p class="panel-label">Common fixes</p>
+                    <p>Stop flat cookies, raw centers, and dry edges by changing pan heat, dough temp, and rest time.</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="track-panel" data-track-panel="cakes-frosting" hidden>
+                <div class="track-panel-head">
+                  <div>
+                    <p class="card-tag">Beginner path</p>
+                    <h3>Cakes & Frosting</h3>
+                  </div>
+                  <p class="track-outcome">Outcome: produce even layers with stable crumb and smooth finishing.</p>
+                </div>
+                <p class="track-summary">
+                  This path focuses on batter architecture. You will learn how air is built, protected, and baked
+                  into a cake that can actually support filling and frosting.
+                </p>
+                <div class="detail-grid">
+                  <div class="detail-card">
+                    <p class="panel-label">Lesson sequence</p>
+                    <ul class="detail-list">
+                      <li>Vanilla cake: mixing methods and pan prep</li>
+                      <li>Chocolate layer cake: balancing moisture with structure</li>
+                      <li>Buttercream lab: texture, temperature, and spreading control</li>
+                    </ul>
+                  </div>
+                  <div class="detail-card">
+                    <p class="panel-label">Milestone bake</p>
+                    <p>Stack a two-layer celebration cake with straight sides, clean slices, and balanced sweetness.</p>
+                  </div>
+                  <div class="detail-card">
+                    <p class="panel-label">Common fixes</p>
+                    <p>Address tunneling, domed tops, curdled frosting, and gummy crumb with process adjustments.</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="track-panel" data-track-panel="bread-basics" hidden>
+                <div class="track-panel-head">
+                  <div>
+                    <p class="card-tag">Intermediate path</p>
+                    <h3>Bread Basics</h3>
+                  </div>
+                  <p class="track-outcome">Outcome: read fermentation and shape dough with confidence.</p>
+                </div>
+                <p class="track-summary">
+                  This path moves from ingredients to living dough behavior. The focus is on fermentation cues,
+                  handling, and oven spring rather than blindly following a timer.
+                </p>
+                <div class="detail-grid">
+                  <div class="detail-card">
+                    <p class="panel-label">Lesson sequence</p>
+                    <ul class="detail-list">
+                      <li>Yeasted sandwich loaf: proofing fundamentals and pan support</li>
+                      <li>Rustic boule: hydration, folds, and shaping tension</li>
+                      <li>Focaccia: fermentation timing and high-hydration confidence</li>
+                    </ul>
+                  </div>
+                  <div class="detail-card">
+                    <p class="panel-label">Milestone bake</p>
+                    <p>Bake one dough in two forms and compare crumb, crust, and proofing response across shapes.</p>
+                  </div>
+                  <div class="detail-card">
+                    <p class="panel-label">Common fixes</p>
+                    <p>Correct dense crumb, blown-out scores, overproofing, and flour-heavy shaping habits.</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="track-panel" data-track-panel="pastry-lab" hidden>
+                <div class="track-panel-head">
+                  <div>
+                    <p class="card-tag">Advanced path</p>
+                    <h3>Pastry Lab</h3>
+                  </div>
+                  <p class="track-outcome">Outcome: execute precision desserts where texture timing matters.</p>
+                </div>
+                <p class="track-summary">
+                  This path is about discipline under tighter tolerances. You will manage cold butter, cooked fillings,
+                  and staged assembly so refined pastries stay crisp, light, and clean.
+                </p>
+                <div class="detail-grid">
+                  <div class="detail-card">
+                    <p class="panel-label">Lesson sequence</p>
+                    <ul class="detail-list">
+                      <li>Pate sucree: blind baking and clean shell structure</li>
+                      <li>Cream fillings: curd, diplomat, and pastry cream control</li>
+                      <li>Rough puff and lamination: turns, resting, and layer protection</li>
+                    </ul>
+                  </div>
+                  <div class="detail-card">
+                    <p class="panel-label">Milestone bake</p>
+                    <p>Finish a fruit tart with crisp shell, stable filling, clean glaze, and precise final assembly.</p>
+                  </div>
+                  <div class="detail-card">
+                    <p class="panel-label">Common fixes</p>
+                    <p>Prevent butter leakage, soggy bottoms, split custards, and collapsed layers.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section skills" id="skills">
+          <div class="section-heading">
+            <p class="eyebrow">Core skills</p>
+            <h2>Master the techniques that transfer across every recipe.</h2>
+          </div>
+
+          <div class="skills-layout">
+            <div class="skills-stack">
+              <article class="skill-card">
+                <span class="skill-number">01</span>
+                <h3>Mise en place</h3>
+                <p>
+                  Measure first, then bake. Setup reduces mistakes and helps you
+                  notice timing-sensitive steps before they matter.
+                </p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-number">02</span>
+                <h3>Heat awareness</h3>
+                <p>
+                  Ovens drift. Learn rack placement, hot spots, and why rotating
+                  pans matters more than blindly trusting the dial.
+                </p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-number">03</span>
+                <h3>Texture cues</h3>
+                <p>
+                  Baking improves faster when you read batter thickness, dough
+                  elasticity, and crumb structure instead of only watching the clock.
+                </p>
+              </article>
+            </div>
+
+            <aside class="timeline-card">
+              <p class="panel-label">90-minute lesson flow</p>
+              <ol class="timeline">
+                <li>
+                  <strong>15 min</strong>
+                  <span>Ingredient prep and tool setup</span>
+                </li>
+                <li>
+                  <strong>20 min</strong>
+                  <span>Technique demo with side-by-side examples</span>
+                </li>
+                <li>
+                  <strong>35 min</strong>
+                  <span>Guided bake with checkpoints</span>
+                </li>
+                <li>
+                  <strong>20 min</strong>
+                  <span>Tasting notes and troubleshooting review</span>
+                </li>
+              </ol>
+            </aside>
+          </div>
+        </section>
+
+        <section class="section starter-kit" id="starter-kit">
+          <div class="section-heading">
+            <p class="eyebrow">Starter kit</p>
+            <h2>Begin with tools and recipes that teach fundamentals fast.</h2>
+          </div>
+
+          <div class="kit-grid">
+            <article class="kit-card">
+              <h3>Essential tools</h3>
+              <p>Digital scale, mixing bowls, sheet pan, loaf pan, whisk, spatula, cooling rack.</p>
+            </article>
+            <article class="kit-card">
+              <h3>First three bakes</h3>
+              <p>Chocolate chip cookies, vanilla snack cake, no-knead bread.</p>
+            </article>
+            <article class="kit-card">
+              <h3>Mindset</h3>
+              <p>Take notes after every bake. Good bakers build patterns, not just recipes.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section quiz-section" id="quiz">
+          <div class="section-heading">
+            <p class="eyebrow">Quick check</p>
+            <h2>Find the next lesson you should take.</h2>
+          </div>
+
+          <div class="quiz-card">
+            <form id="readiness-quiz">
+              <fieldset>
+                <legend>How do you usually measure flour?</legend>
+                <label><input type="radio" name="flour" value="0" checked /> I scoop straight from the bag.</label>
+                <label><input type="radio" name="flour" value="1" /> I spoon it into a cup and level it.</label>
+                <label><input type="radio" name="flour" value="2" /> I weigh it with a scale.</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>What do you do before your batter is ready?</legend>
+                <label><input type="radio" name="oven" value="0" checked /> I start preheating once I am done mixing.</label>
+                <label><input type="radio" name="oven" value="1" /> I preheat near the middle of prep.</label>
+                <label><input type="radio" name="oven" value="2" /> I preheat first and plan around bake timing.</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>When bread dough feels sticky, what is your first move?</legend>
+                <label><input type="radio" name="dough" value="0" checked /> Add flour until it stops sticking.</label>
+                <label><input type="radio" name="dough" value="1" /> Rest it briefly and reassess.</label>
+                <label><input type="radio" name="dough" value="2" /> Check hydration, time, and dough temperature first.</label>
+              </fieldset>
+
+              <button class="button button-primary" type="submit">See My Track</button>
+            </form>
+
+            <div class="quiz-result" id="quiz-result" aria-live="polite">
+              Choose your answers to get a recommended track.
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

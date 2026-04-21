@@ -1,0 +1,8 @@
+While going through the Evals page I couldnt help but notice that the principles are
+the same as when you are writing tests for any other sort of program. You create a task, give it predetermiend
+inputs and outputs, run with the prompt and see if the output matches the expected output. In hindsight this makes
+sense as testing in general is the same for anything that you do.
+
+I have made a lot of progress on my project. I ran into an issue with getting dat via the Garmin
+API but found out through a few online posts that others have also been having issues with it lately.
+I found an alternative source to get the data from and it seems to work now.

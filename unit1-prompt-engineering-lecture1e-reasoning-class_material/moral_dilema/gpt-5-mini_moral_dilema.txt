@@ -1,0 +1,72 @@
+Chat Log - 2026-02-12 17:46:14
+Model: gpt-5-mini
+Reasoning Effort: low
+System Prompt: None
+================================================================================
+
+User: You are at your best friend's wedding just an hour before the ceremony is to start. Earlier that day, you came across definitive proof that your best friend's spouse-to-be is having an affair with the best man/maid of honor, and you catch them sneaking out of a room together looking disheveled. If you tell your friend about the affair, their day will be ruined, but you don't want them to marry a cheater. What do you do?
+
+Reasoning: **Navigating a moral dilemma**
+
+The user is facing a tough situation and is looking for advice on how to approach it. I'll provide options that include pros and cons, along with a recommended action plan. Timing is crucial—talking to the friend before the ceremony might be damaging. It could be wise to confront the cheating partner first, verify the truth, and gather evidence. If certain, I’ll recommend discussing it with the friend privately before the vows, while being mindful of the emotional impact.
+
+Assistant: This is one of those awful, high-stakes moments where there’s no risk-free choice. I’ll lay out a practical way to decide and act so you protect your friend’s interests while minimizing unnecessary harm.
+
+First, stop and assess
+- How definite is the proof? “Definitive” means more than suspicious behavior — concrete evidence (messages, photos, a confession) that makes it very likely the fiancé(e) and MOH/Best Man are having an affair. If it’s ambiguous, you shouldn’t blow up the wedding on a hunch.
+- How likely is a calm conversation to change anything? If you expect denial and chaos regardless, that’s part of the calculation.
+- Consider safety and logistics: is anyone at risk of violence or severe emotional collapse? If so, get help.
+
+Options and consequences
+1) Tell your friend immediately, privately, before the ceremony
+   - Pros: your friend makes an informed choice about marriage; you act on loyalty and truth.
+   - Cons: it will almost certainly ruin their wedding day; severe emotional trauma; possible blowups in public; you may be blamed.
+
+2) Confront the cheating party first (quietly) and demand they leave or confess
+   - Pros: gives them a chance to own it and stop the wedding without the drama of you breaking the news; could defuse or clarify the situation.
+   - Cons: they may lie or refuse; you become the immediate conflict; you may not get a resolution in time.
+
+3) Wait and tell your friend after the ceremony (or after some time)
+   - Pros: avoids immediate devastation of their wedding day; preserves the day for guests who may not be aware.
+   - Cons: you’re allowing a marriage to be entered under false pretenses; you may feel guilty and your friend will be more hurt by the delay when they find out.
+
+How I recommend you proceed (practical steps)
+1. Verify: If you genuinely have definitive proof, don’t act on rumor. Make sure what you saw/messages are authentic.
+2. Confront the two involved privately, immediately, if possible:
+   - Say calmly you saw evidence and ask for a straightforward answer.
+   - Give them a short ultimatum: either they leave now/step back and tell the truth to the appropriate person, or you will inform the bride/bridegroom. You are not shouting — you’re offering a chance to do the right thing.
+3. If they confess and agree to remove themselves from the event, insist they leave quietly and that you’ll help manage the fallout (escort them out, tell a wedding planner/security).
+4. If they deny or refuse, or if you can’t get a confession, you have to decide between immediate disclosure and waiting:
+   - If the evidence is rock-solid and you believe your friend would want to know before saying vows, tell them privately, calmly, and without judgment. Use a quiet space, be direct, offer your support, and be prepared to help them get out (transport, a safe person to be with them).
+   - If the evidence is less than incontrovertible, consider delaying disclosure until after the ceremony or until you can gather more proof. Explain to yourself why you are waiting.
+
+How to tell them (if you do)
+- Ask for a private moment, keep your voice low.
+- Be direct: “I need to tell you something important and painful. I saw [evidence].” Avoid sensationalizing.
+- Stay with “I” statements and facts, not accusations: “I saw messages/photos of X with Y,” rather than “You’re being betrayed.”
+- Offer immediate support: “I’m here. We can leave. Do you want me to tell anyone else? Do you want space?”
+- Respect their choice about how to proceed, even if it’s not what you’d choose.
+
+Aftermath
+- Be prepared for blame, anger, denial. Stay calm, be a steady presence.
+- Help with logistics: getting them out of the venue, contacting a trusted family member, keeping them safe.
+- If they choose to go ahead and marry, document what you know someplace safe; they may need it later.
+
+Final note
+You’re protecting your friend’s autonomy by giving them true information, but timing and delivery matter. If the proof is truly definitive, prioritize telling them before they say vows — but do it privately, calmly, and be prepared to support them through the fallout. If the evidence is not definitive, try to get clearer confirmation first or confront the involved parties and give them a chance to do the right thing.
+
+--------------------------------------------------------------------------------
+Usage for this response:
+  Input tokens: 100
+  Cached tokens: 0
+  Output tokens: 1081
+  Reasoning tokens: 128
+
+Cumulative Usage:
+  Total input tokens: 100
+  Total cached tokens: 0
+  Total output tokens: 1081
+  Total reasoning tokens: 128
+  Total cost: $0.002187
+================================================================================
+

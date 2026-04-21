@@ -1,0 +1,63 @@
+Chat Log - 2026-02-12 17:47:43
+Model: gpt-5
+Reasoning Effort: low
+System Prompt: None
+================================================================================
+
+User: You are at your best friend's wedding just an hour before the ceremony is to start. Earlier that day, you came across definitive proof that your best friend's spouse-to-be is having an affair with the best man/maid of honor, and you catch them sneaking out of a room together looking disheveled. If you tell your friend about the affair, their day will be ruined, but you don't want them to marry a cheater. What do you do?
+
+Reasoning: **Providing ethical guidance**
+
+I need to offer ethical advice on a sensitive situation, which means being compassionate and thoughtful. I’ll consider steps like gathering information, timing, and ensuring consent. It’s important to think about potential approaches—maybe pausing the ceremony, asking individuals to confess, or having a private talk. I also want to prepare for different outcomes and be aware of cultural differences. I’ll provide sample phrasing and emphasize the friend's autonomy, suggesting delaying the ceremony if needed.
+
+Assistant: That’s an excruciating spot to be in. Your obligations compete: protect your friend from harm vs. not blindsiding them right before a major life event. Here’s a way to handle it that balances honesty, care, and minimizing public fallout.
+
+1) Pause and verify
+- Be sure your information is accurate and current. You’ve seen them disheveled and have proof—confirm it’s clear and not open to benign explanation.
+- Collect yourself so you can speak calmly and briefly.
+
+2) Prioritize your friend’s autonomy
+- Your friend deserves to make an informed choice before a life-altering commitment. If you withhold, you’re making the decision for them.
+- Goal: inform them privately with facts, not to decide for them or stage a public scene.
+
+3) Create a private, time-limited window
+- Ask for a 10–15 minute private conversation immediately. Enlist a trusted family member or the officiant to discreetly “cover” the delay (e.g., a quick schedule hiccup) so there’s no public drama.
+
+4) Share the minimum necessary facts, compassionately
+- Keep it brief, factual, and kind. Avoid accusations, insults, or speculation.
+- Example: “I’m really sorry to bring this to you right now. I just saw [partner] and [best man/maid of honor] come out of a room together looking disheveled, and earlier today I came across [briefly describe the proof]. I care about you too much to let you walk into this without knowing.”
+- Offer to show the proof. Let them decide if they want to see it.
+
+5) Offer options, not directives
+- “You can ask them both privately right now, postpone to sort this out, or proceed and talk after. I’ll support whatever you decide.”
+- If they want confrontation, help arrange it privately with just the necessary people present.
+
+6) Minimize public harm
+- If they choose to pause or cancel: help manage logistics—ask the officiant to announce a short delay or unforeseen change, redirect vendors/guests, and protect your friend’s privacy.
+- If they proceed: don’t push further today; be there for them and revisit later if needed.
+
+7) Safety and support
+- Ensure your friend isn’t left alone if they’re in shock. Offer water, a quiet room, and a supportive person they choose.
+- If there’s any risk of volatility with the partner or the affair partner, keep others nearby and avoid heated confrontations.
+
+8) Aftercare
+- No gossip. Share only on a need-to-know basis and only with your friend’s consent.
+- Follow up in the days after to help them process, make decisions, or seek counseling.
+
+If you absolutely cannot get them alone without causing a scene, a last-resort option is to pull the officiant or a parent/sibling they trust into the loop to create that private moment. The key is timely, factual honesty delivered with care, while preserving your friend’s dignity and choices.
+
+--------------------------------------------------------------------------------
+Usage for this response:
+  Input tokens: 100
+  Cached tokens: 0
+  Output tokens: 781
+  Reasoning tokens: 128
+
+Cumulative Usage:
+  Total input tokens: 100
+  Total cached tokens: 0
+  Total output tokens: 781
+  Total reasoning tokens: 128
+  Total cost: $0.007935
+================================================================================
+
